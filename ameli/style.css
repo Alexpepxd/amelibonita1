@@ -1,0 +1,165 @@
+html{
+    
+
+
+}
+
+.cname{
+    font-style: italic;
+    font-size: large;
+}
+
+.justk{
+    font-size: large;
+    width: 150px;
+}
+
+.lanaimg{
+    width: 150px;
+}
+
+.joder{
+    font-style: oblique;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.redflag{
+    color: red
+}
+
+.lanarey{
+    font-size: large;
+    font-style: italic;
+}
+
+.img3{
+    width: 150px;
+}
+
+.ameli-titulo{
+    color: blue;    
+}
+
+body{
+    background-color: pink;
+}
+
+img{
+    width: 400px;
+    height: auto;
+
+    
+}
+
+.imagen2{
+    width: 200px;
+}
+
+
+.Banda1{
+    font-size: large;
+    font-style: italic;
+
+
+}
+
+.preguntaRA{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+
+.bjork{
+    width: 200px;
+}
+
+.dato{
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.concorde{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.justk{
+    font-weight: bold;
+}
+
+.yo{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.ameli2{
+    font-style: italic;
+    color:red
+}
+
+.cuerpo2{
+    background-color: aqua;
+    font-weight: bolder;
+}
+.tato{
+    width: 150px;
+}
+
+.kity{
+    width: 150px;
+}
+
+.bolsa{
+    width: 150px;
+}
+
+.dibujo{
+    width: 150px;
+}
+
+.gato{
+    width: 150px;
+}
+
+.camaron{
+    width: 150px;
+}
+
+.cuerpo3 {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e44d26;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+
+.aparecer {
+    opacity: 1;
+}
+
+.eterno{
+    width: 150px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mensaje Romántico</title>
+</head>
+
+<body class="cuerpo3">
+    <div class="container">
+        <h1>Querida Ameli,</h1>
+        <p>Querida Ameli,
+
+            Hoy celebramos 100 días de amor, risas y momentos inolvidables juntos. Cada día a tu lado ha sido un regalo precioso que atesoro en lo más profundo de mi corazón. En este corto tiempo, hemos construido un vínculo único y especial que ilumina mi vida de una manera que nunca imaginé.
+            
+            Tu amor ha sido la melodía que ha dado ritmo a mis días, y tu presencia ha sido la luz que ha iluminado incluso los momentos más oscuros. Cada instante contigo es como un sueño hecho realidad, y no puedo evitar sentirme agradecido por tenerte a mi lado.
+            
+            En estos 100 días, hemos compartido risas que han llenado el aire de alegría, superado desafíos que han fortalecido nuestro lazo y creado recuerdos que atesoraré para siempre. Cada pequeño detalle de nuestra historia juntos se ha convertido en una parte esencial de mi felicidad.
+            
+            Ameli, eres mi inspiración, mi apoyo y mi amor verdadero. Espero con emoción cada día que está por venir, sabiendo que cada uno será aún más especial a tu lado. Gracias por hacer de estos primeros 100 días una etapa inolvidable en el viaje de nuestro amor.
+            
+            Te amo más de lo que las palabras pueden expresar y estoy emocionado por todo lo que el futuro nos tiene preparado.
+            
+            Con todo mi amor,
+        </p>
+        <button id="corazonBtn">¡Haz clic para un corazón!</button>
+        <button id="florBtn">¡Haz clic para una flor !</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('corazonBtn').addEventListener('click', function() {
+                mostrarCorazon();
+            });
+
+            document.getElementById('florBtn').addEventListener('click', function() {
+                mostrarFlor();
+            });
+
+            function mostrarCorazon() {
+                var corazon = document.createElement('span');
+                corazon.innerHTML = '❤️';
+                corazon.style.color = '#e44d26';
+                corazon.style.fontSize = '24px';
+                corazon.style.marginLeft = '5px';
+
+                var contenedorMensaje = document.querySelector('.container');
+                contenedorMensaje.appendChild(corazon);
+
+                setTimeout(function() {
+                    corazon.remove();
+                }, 2000);
+            }
+
+            function mostrarFlor() {
+                var flor = document.createElement('span');
+                flor.innerHTML = '🌸';
+                flor.style.color = 'blue';
+                flor.style.fontSize = '24px';
+                flor.style.marginLeft = '5px';
+                flor.style.transition = 'opacity 2s';
+
+                var contenedorMensaje = document.querySelector('.container');
+                contenedorMensaje.appendChild(flor);
+
+                // Agrega una clase para iniciar la animación
+                flor.classList.add('aparecer');
+
+                setTimeout(function() {
+                    flor.remove();
+                }, 2000);
+            }
+        });
+    </script>
+</body>
+</html>
